@@ -13,7 +13,7 @@ This is the deployed link on netlify-https://home-test-travelopia-round.netlify.
             ```bash
             npm install
             ```
-## Testing
+2. **Testing**
     - Jest testing library is used in the assignment for testing.
         - For testing use the following command:
            ```bash
