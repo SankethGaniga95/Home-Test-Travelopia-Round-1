@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="At Exodus, we know what makes you tick when it comes to holidays. It’s a desire shared by so many others. A yearning to visit new places and come home with a real sense of what they’re all about. This means delving into local traditions, cultures, cuisine, lifestyles – anything that contributes to its unique identity. At the same time, we always remember that we are only guests. So we travel courteously and respectfully, in smaller groups to minimise our impact, to ensure that every Exodus holiday is a beneficial experience for everyone involved.">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
         <ul>
             <li>
@@ -60,6 +62,7 @@
             </li>
         </ul>
     </header>
+    <!-- Carousal Section -->
     <div id="carousal">
         <div class="carousal-component">
             <img src="https://res.cloudinary.com/enchanting/q_70,f_auto,w_40,h_40,c_lfill,g_auto/exodus-web/2022/05/trustpilot_brandmark_teal-rgb.png" alt="">
@@ -94,6 +97,7 @@
             
         </div>
     </div>
+    <!-- Hero Image -->
     <section id="main-image">
         <img src="https://res.cloudinary.com/enchanting/q_80,f_auto,c_lfill,w_1600,h_400,g_auto/exodus-web/2022/07/armenia-2.jpg" alt="">
         <div id="text-on-image">
@@ -103,6 +107,7 @@
             </div>
         </div>
     </section>
+    <!-- Description -->
     <section id="content">
         <div class="container">
             <div class="description">
@@ -116,10 +121,12 @@
             <h3>View our current travel guide for Armenia <span>here</span>. </h3>
         </div>
         <aside>
+            <!-- Call Details -->
             <div>
                 <p>Call for general departures:</p>
                 <h4>020 3582 9945</h4>
             </div>
+            <!-- Form -->
             <form>
                 <h3>Make an enquiry</h3>
                 <h5>Step 1 of 2</h5>
@@ -141,7 +148,6 @@
                       <option value="">8+</option>
                 </select>
                 <p>MESSAGE<span> *</span></p>
-                <!-- <textarea type="text"></textarea> -->
                 <textarea name="" id="" cols="30" rows="10" placeholder=" How can we help you?"></textarea>
                 <p>To enquire about an existing booking <span>click here</span></p>
                 <button>NEXT</button>
@@ -156,13 +162,4 @@
     </section>
 </body>
 </html>
-<script>
-    const showMoreBtn=document.querySelector("#read-more");
-    showMoreBtn.addEventListener('click',(e)=>{
-    const spantext=document.querySelector('.extended-part-span')
-    spantext.classList.toggle('extended-part-span--show')
-    const text=document.querySelector('.extended-part')
-    text.classList.toggle('extended-part--show')
-    showMoreBtn.textContent=e.target.textContent.includes("Show More ↓")?"Show Less ↑":"Show More ↓"
-    })
-</script>
+<script src="index.js"></script>

@@ -3,6 +3,7 @@ body{
     padding: 0;     
  
 }
+/* Header Section */
 header{
     position: sticky;
     top:0;
@@ -67,6 +68,7 @@ header ul li p{
     border-radius: 5px;
     
  }
+ /* Carousal */
  #carousal{
   display: flex;
   justify-content: space-evenly;
@@ -93,6 +95,7 @@ header ul li p{
     color: #808b8b;
     font-weight: 600;
  }
+ /*Hero Image  */
 
  #main-image {
     position: relative;
@@ -131,6 +134,7 @@ header ul li p{
     font-family: sans-serif;
     font-weight: 600;
   }
+  /* Description part */
   #content{
     margin: 0 auto;
     max-width: 1400px;
@@ -154,6 +158,7 @@ header ul li p{
   aside{
     padding-left: 7%;
   }
+  /* Call Details */
   aside>div{
     border:1px solid rgb(199, 199, 199);
     border-radius:5px;
@@ -176,6 +181,7 @@ header ul li p{
     padding-left: 16px;
     margin-bottom: 10px;
   }
+  /* Form Section */
   form{
     display: flex;
     flex-direction: column;
@@ -220,8 +226,10 @@ header ul li p{
     font-size: 15px;
     font-weight: 600;
   }
-  form>h3{
+  form>label{
     font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
   }
   form>h5{
     margin-top: 0;
@@ -245,9 +253,10 @@ header ul li p{
     border-radius: 7px;
     font-size: 12px;
     align-items: center;
-    justify-content: space-between;
-    
-
+    justify-content:center;
+  }
+  #form-footer>span>svg{
+    margin-right: 10px;
   }
   form p:nth-child(11){
     font-size: 13px;
@@ -277,7 +286,7 @@ header ul li p{
   
 
   @media screen and (max-width:420px) {
-
+/* Header section */
     header{
       position: sticky;
       top:0;
@@ -292,10 +301,6 @@ header ul li p{
       margin-bottom: -50px;
       
    }
-
-    #content{
-        display: block;
-      }
     .nav-anchor,header ul li:nth-child(9),header ul li:nth-child(11), header ul li button,header ul li select{
         display: none;
     }
@@ -317,6 +322,7 @@ header ul li p{
       display: inline;
  
   }
+  /* Carousal Section */
   #carousal{
     display: block;
 
@@ -341,6 +347,7 @@ header ul li p{
  .carousal-component img{
     width:20px
  }
+ /* Hero Image Section */
  #main-image {
     width: 100%;
     margin-top: -115px;
@@ -378,6 +385,12 @@ header ul li p{
     font-weight: 500;
   }
 
+  /* Description */
+
+  #content{
+    display: block;
+  }
+
   #content>div{
     width:95%;
     margin-left:5%;
@@ -396,6 +409,7 @@ header ul li p{
   aside{
     padding-left: 5%;
   }
+  /* Call Details */
   aside>div{
    
     margin-top:20px;
@@ -403,6 +417,7 @@ header ul li p{
     margin-bottom:10px;
     width: 90%;
   }
+  /* Form Section */
   form{
     display: flex;
     flex-direction: column;
@@ -415,6 +430,7 @@ header ul li p{
     border-radius: 6px;
     /* max-width: 90vw; */
   }
+  /* Show More Section */
   #read-more{
     display: block;
     margin-left: 35%;
