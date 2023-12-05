@@ -271,6 +271,9 @@ header ul li p{
   #content>div>h3>span{
     color: #00A8B6;
   }
+  #read-more{
+    display: none;
+  }
   
 
   @media screen and (max-width:420px) {
@@ -413,6 +416,7 @@ header ul li p{
     /* max-width: 90vw; */
   }
   #read-more{
+    display: block;
     margin-left: 35%;
     font-weight: 600;
   }
