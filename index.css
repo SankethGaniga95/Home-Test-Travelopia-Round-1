@@ -204,9 +204,11 @@ header ul li p{
     outline: none;
   }
   form>select{
-    color: #373e3e;
+    color: #656d6d;
     font-weight: 500;
     border: none;
+    height: 40px;
+    font-size: 17px;
     
   }
   form>textarea{
@@ -216,6 +218,7 @@ header ul li p{
     outline: none;
     border-radius: 5px;
     font-family: sans-serif;
+    margin-bottom: 10px;
 
   }
   form p:first-of-type{
@@ -227,12 +230,25 @@ header ul li p{
     font-weight: 600;
   }
   form>label{
-    font-size: 22px;
+    font-family: sans-serif;
+    font-size: 15px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-top: 17px;
+    margin-bottom: 17px;
   }
-  form>h5{
-    margin-top: 0;
+  form>label:nth-child(1){
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 17px;
+    
+  }
+  form>label:nth-child(2){
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
     
   }
   form>button{
@@ -261,16 +277,12 @@ header ul li p{
   form p:nth-child(11){
     font-size: 13px;
   }
-  form p:nth-child(7)>span{
+  form label>span{
    color: rgb(250, 44, 44);
    font-size: 18px;
    
   }
-  form p:nth-child(9)>span{
-    color: rgb(250, 44, 44);
-    font-size: 18px;
-    
-   }
+ 
   form p:nth-child(11)>span{
     text-decoration:underline
   }

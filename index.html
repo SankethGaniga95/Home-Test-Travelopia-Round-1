@@ -53,7 +53,8 @@
                 <button>CONTACT</button>
             </li>
             <li>
-                <select name="" id="">
+                <label for="country"></label>
+                <select id="country">
                     <option value=""></option>
                 </select>
             </li>
@@ -128,15 +129,14 @@
             </div>
             <!-- Form -->
             <form>
-                <h3>Make an enquiry</h3>
-                <h5>Step 1 of 2</h5>
-                <p>DESTINATION</p>
+                <label>Make an enquiry</label>                
+                <label>Step 1 of 2</label>
+                <label>DESTINATION</label>
                 <input type="text" placeholder="Armenia">
-                <p>DEPARTURE DATE</p>
+                <label>DEPARTURE DATE</label>
                 <input type="text" placeholder="dd/mm/yy">
-                <p>NUMBER OF PASSENGERS<span> *</span>
-                </p>
-                <select>
+                <label for="passengers">NUMBER OF PASSENGERS<span> *</span></label>
+                <select  id="passengers">
                       <option value="">Select</option>
                       <option value="">1</option>
                       <option value="">2</option>
@@ -147,7 +147,7 @@
                       <option value="">7</option>
                       <option value="">8+</option>
                 </select>
-                <p>MESSAGE<span> *</span></p>
+                <label>MESSAGE<span> *</span></label>
                 <textarea name="" id="" cols="30" rows="10" placeholder=" How can we help you?"></textarea>
                 <p>To enquire about an existing booking <span>click here</span></p>
                 <button>NEXT</button>
